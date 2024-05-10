@@ -14,9 +14,10 @@ console.log(null >= 0); //true
 
 // equality operator (==) does not convert null into 0 and give "false" result
 //and > ,>= etc convert null into 0
-console.log(undefined == 0);
-console.log(undefined > 0);
-console.log(undefined < 0);
+console.log(undefined == 0);//false
+console.log(undefined > 0);//false
+console.log(undefined < 0);//false
+console.log(undefined);// give undefined
 
 // ===  it is a strict check
 // it first check data type then use coversion 
