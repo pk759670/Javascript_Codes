@@ -34,4 +34,25 @@ const myFunction = function(){
 
 console.log(typeof heros);
 
+
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ***********************************************
+// Stack(Primitive)   , Heap(Non Primitive-Call by Reference)
+
+let myname="Pardeep"
+let yourname =myname
+yourname="Prakesh"
+// console.log(yourname);
+// console.log(myname);
+
+let userOne = {
+    name: "Pardeep",
+    email: "pardeep@google.com"
+}
+ let userTwo=userOne
+
+ userTwo.email="Parvesh@yahoo.com"
+console.log(userOne.email);
+console.log(userTwo.email);
